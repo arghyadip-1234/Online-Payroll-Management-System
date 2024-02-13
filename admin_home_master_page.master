@@ -1,0 +1,144 @@
+﻿<%@ Master Language="VB" CodeFile="admin_home_master_page.master.vb" Inherits="admin_home_master_page" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            height: 757px;
+        }
+        .style2
+        {
+        }
+        .style3
+        {
+            width: 891px;
+        }
+        .style4
+        {
+            width: 195px;
+            height: 170px;
+        }
+        .style5
+        {
+            width: 891px;
+            height: 170px;
+        }
+        .style6
+        {
+            height: 170px;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="height: 770px; width: 1252px">
+        <table class="style1">
+            <tr>
+                <td class="style4" 
+                    style="background-position: center center; background-color: #0066FF; background-image: url('/Online PBC Emp Management System/image/clglogo - Copy.png'); background-repeat: repeat; background-attachment: fixed;">
+                    <asp:Image ID="Image1" runat="server" Height="223px" 
+                        ImageUrl="~/image/clglogo.png" Width="224px" />
+                </td>
+                <td class="style5" style="background-color: #0066FF">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;
+                    <asp:Image ID="Image2" runat="server" Height="207px" 
+                        ImageUrl="~/image/slide-1.jpg" Width="1034px" />
+                    </td>
+                <td style="background-color: #0066FF" class="style6">
+                    <asp:Button ID="Button7" runat="server" Text="Home" 
+                        PostBackUrl="~/home_page.aspx" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button8" runat="server" Text="Index" 
+                        PostBackUrl="~/home_page.aspx" />
+                </td>
+            </tr>
+            <tr>
+                <td class="style2" style="background-color: #00FFCC" colspan="2">
+                    &nbsp;</td>
+                <td style="background-color: #6699FF" rowspan="15">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style2" style="background-color: #00FFCC">
+                    <asp:Button ID="Button1" runat="server" Text="Home Page" Width="169px" />
+                </td>
+                <td class="style3" rowspan="14">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="style2" style="background-color: #00FFCC">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style2" style="background-color: #00FFCC">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style2" style="background-color: #00FFCC">
+                    <asp:Button ID="Button3" runat="server" Text="Salary Entry" Width="170px" 
+                        PostBackUrl="~/salary_entry.aspx" />
+                </td>
+            </tr>
+            <tr>
+                <td class="style2" style="background-color: #00FFCC">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style2" style="background-color: #00FFCC">
+                    <asp:Button ID="Button4" runat="server" Text="Apply Leave" Width="171px" 
+                        PostBackUrl="~/Leave_status_Admin.aspx" />
+                </td>
+            </tr>
+            <tr>
+                <td class="style2" style="background-color: #00FFCC">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style2" style="background-color: #00FFCC">
+                    <asp:Button ID="Button5" runat="server" Text="Check Leave Admin" 
+                        Width="168px" />
+                </td>
+            </tr>
+            <tr>
+                <td class="style2" style="background-color: #00FFCC">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style2" style="background-color: #00FFCC">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style2" style="background-color: #00FFCC">
+                    <asp:Button ID="Button10" runat="server" Height="31px" 
+                        PostBackUrl="~/basic_info.aspx" Text="New stuff/faculty registration" 
+                        Width="172px" />
+                </td>
+            </tr>
+            <tr>
+                <td class="style2" style="background-color: #00FFCC">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style2" style="background-color: #00FFCC">
+                    <asp:Button ID="Button9" runat="server" Text="log Out" Width="171px" />
+                </td>
+            </tr>
+            <tr>
+                <td class="style2" style="background-color: #00FFCC">
+                    &nbsp;</td>
+            </tr>
+            </table>
+    </div>
+    </form>
+</body>
+</html>

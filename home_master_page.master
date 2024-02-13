@@ -1,0 +1,155 @@
+﻿<%@ Master Language="VB" CodeFile="home_master_page.master.vb" Inherits="home_master_page" Explicit="false" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            width: 249px;
+            margin-left: 40px;
+        }
+        .style3
+        {
+            width: 818px;
+        }
+        #form1
+        {
+            width: 1078px;
+        }
+        .style4
+        {
+            width: 249px;
+            margin-left: 40px;
+            height: 234px;
+        }
+        .style5
+        {
+            width: 818px;
+            height: 234px;
+        }
+        .style6
+        {
+            height: 234px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" 
+    style="background-image: url('/Bharat Consortium 27-4-151/pic/july-7-2009-extravaganza-prediction-true - Copy - Copy - Copy - Copy.jpeg')">
+    <div>
+        <table class="style1">
+            <tr>
+                <td class="style4" style="background-color: #3333FF">
+                    <asp:Image ID="Image1" runat="server" Height="223px" 
+                        ImageUrl="~/image/clglogo.png" Width="224px" />
+                </td>
+                <td class="style5" style="background-color: #3333FF">
+                    <asp:Image ID="Image2" runat="server" Height="220px" 
+                        ImageUrl="~/image/slide-1.jpg" Width="1034px" />
+                </td>
+                <td style="background-color: #3333FF" class="style6">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button1" runat="server" Text="Home" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button2" runat="server" Text="Index" />
+                </td>
+            </tr>
+            <tr>
+                <td class="style2" style="background-color: #33CCCC">
+                    &nbsp;</td>
+                <td class="style3" style="background-color: #33CCCC">
+                    &nbsp;</td>
+                <td style="background-color: #33CCCC">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    &nbsp;</td>
+                <td class="style3" rowspan="11" style="background-color: #00CC99">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td rowspan="8">
+                    <asp:Calendar ID="Calendar2" runat="server" BackColor="White" 
+                        BorderColor="#3366CC" BorderWidth="1px" DayNameFormat="Shortest" 
+                        Font-Names="Verdana" Font-Size="8pt" ForeColor="#003399" Height="200px" 
+                        Width="220px" CellPadding="1">
+                        <DayHeaderStyle BackColor="#99CCCC" Height="1px" ForeColor="#336666" />
+                        <NextPrevStyle Font-Size="8pt" ForeColor="#CCCCFF" />
+                        <OtherMonthDayStyle ForeColor="#999999" />
+                        <SelectedDayStyle BackColor="#009999" Font-Bold="True" ForeColor="#CCFF99" />
+                        <SelectorStyle BackColor="#99CCCC" ForeColor="#336666" />
+                        <TitleStyle BackColor="#003399" Font-Bold="True" Font-Size="10pt" 
+                            ForeColor="#CCCCFF" BorderColor="#3366CC" BorderWidth="1px" 
+                            Height="25px" />
+                        <TodayDayStyle BackColor="#99CCCC" ForeColor="White" />
+                        <WeekendDayStyle BackColor="#CCCCFF" />
+                    </asp:Calendar>
+                </td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    <asp:Button ID="Button4" runat="server" Height="32px" Text="Employee" 
+                        Width="231px" />
+                </td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    <asp:Button ID="Button14" runat="server" Height="31px" Text="Salary Entry Page" 
+                        Width="231px" />
+                </td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    <asp:Button ID="Button15" runat="server" Height="30px" 
+                        Text="Apply Leave Status" Width="231px" />
+                </td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
